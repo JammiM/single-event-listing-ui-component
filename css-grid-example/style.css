@@ -86,10 +86,17 @@ p {
   align-items: center;
   margin-top: 5px;
   font-weight: 500;
+  transition-delay: 1s;
 }
 
 .event__info_row_item img {
   margin-right: 5px;
   filter: brightness(0) saturate(100%) invert(84%) sepia(0%) saturate(156%)
     hue-rotate(17deg) brightness(95%) contrast(95%);
+}
+
+.event__info_row_item:hover * {
+  color: var(--yellow);
+  filter: brightness(0) saturate(100%) invert(69%) sepia(93%) saturate(327%)
+    hue-rotate(2deg) brightness(97%) contrast(95%);
 }
