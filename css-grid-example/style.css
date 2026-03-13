@@ -6,7 +6,7 @@
 body {
   font-size: 1rem;
   line-height: 1.5;
-  font-weight: 900;
+
   font-style: normal;
 }
 
@@ -14,47 +14,12 @@ p {
   font-size: 1.25em;
 }
 
-.titillium-web-light {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.titillium-web-regular {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.titillium-web-bold {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.titillium-web-black {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.titillium-web-light-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.titillium-web-regular-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
 .event {
   display: grid;
   grid-template-columns: 100px auto;
 
   filter: drop-shadow(30px 10px 4px rgba(169, 169, 169, 0.4));
+  font-family: "Titillium Web", sans-serif;
 }
 
 .event__date {
@@ -66,6 +31,7 @@ p {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   font-size: 1.25rem;
+  font-weight: 700;
 }
 .event__date__item {
   display: grid;
@@ -99,6 +65,7 @@ p {
 
 .event__title {
   letter-spacing: 1.2px;
+  font-weight: 700;
 }
 .item {
   display: grid;
@@ -118,6 +85,7 @@ p {
   justify-content: start;
   align-items: center;
   margin-top: 5px;
+  font-weight: 500;
 }
 
 .event__info_row_item img {
